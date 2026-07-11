@@ -1,0 +1,248 @@
+CREATE TABLE customers (
+customer_id INTEGER,
+first_name VARCHAR(10) NOT NULL,
+last_name VARCHAR(10) NOT NULL,
+dob DATE,
+phone VARCHAR(12)
+);
+
+select * from customers;
+INSERT INTO customers (customer_id, first_name, last_name, dob, phone) VALUES (
+1, 'John', 'Brown', '1965-01-01', '800-555-1211');
+INSERT INTO customers (customer_id, first_name, last_name, dob, phone) VALUES (
+2, 'Cynthia', 'Green', '1968-02-05', '800-555-1212');
+INSERT INTO customers (customer_id, first_name, last_name, dob, phone) VALUES (
+3, ‘Steve’, 'White', '1971-03-16', '800-555-1213');
+INSERT INTO customers (customer_id, first_name, last_name, dob, phone) VALUES (
+4, 'Gail', 'Black', NULL, '800-555-1214");
+INSERT INTO customers (customer_id, first_name, last_name, dob, phone) VALUES (
+5, 'Doreen', 'Blue', '1970-05-20', NULL);
+
+-- commit the transaction
+COMMIT;
+
+CREATE TABLE product_types (
+product_type_id INTEGER PRIMARY KEY,
+name VARCHAR(10) NOT NULL
+);
+CREATE TABLE products (
+product_id INTEGER
+PRIMARY KEY,
+product_type_id INTEGER
+REFERENCES product_types (product_type_id),
+name VARCHAR(30) NOT NULL,
+description VARCHAR(50),
+price decimal(5, 2)
+);
+
+INSERT INTO product_types (product_type_id, name VALUES (1, 'Book');
+INSERT INTO product_types (product_type_id, name] VALUES (2, 'Video');
+INSERT INTO product_types (product_type_id, name) VALUES (3, 'DVD');
+INSERT INTO product_types (product_type_id, name) VALUES (4, CD');
+INSERT INTO product types (product_type_id, name VALUES (5, 'Magazine');
+
+-- commit the transaction
+COMMIT;
+
+-- insert sample data into products table
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (1, 1, 'Modern Science', 'A description of modern science', 19.95);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (2, 1, 'Chemistry', 'Introduction to Chemistry', 30.00);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (3, 2, 'Supernova', 'A star explodes', 25.99);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (4, 2, 'Tank War'. 'Action movie about a future war', 13.95);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (5, 2, 'Z Files', 'Series on mysterious activities', 49.99);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (6, 2, ‘2412: The Return', 'Aliens return', 14.95);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (7, 3, 'Space Force 9', 'Adventures of heroes', 13.49);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (8, 3, 'From Another Planet', 'Alien from another planet lands on Earth', 12.99);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (9, 4, 'Classical Music', 'The best classical music', 10.99);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (10, 4, 'Pop 3', 'The best popular music', 15.99);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (11, 4, 'Creative Yell', 'Debut album', 14.99);
+INSERT INTO products (product_id, product_type_id, name, description, price) VALUES (12, NULL, 'My Front Line', 'Their greatest hits', 13.49);
+
+-- commit the transaction
+COMMIT;
+
+CREATE TABLE purchases (
+product_id INTEGER
+REFERENCES products (product_id),
+customer_id INTEGER
+REFERENCES customers (customer_id),
+quantity INTEGER NOT NULL,
+CONSTRAINT purchases_pk PRIMARY KEY (product_id, customer_id)
+);
+
+-- insert sample data into purchases table
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (1, 1, 1);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (2, 1, 3);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (1, 4, 1);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (2, 2, 1);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (1, 3, 1);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (1, 2, 2);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (2, 3, 1);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (2, 4, 1);
+INSERT INTO purchases (product_id, customer_id, quantity) VALUES (3, 3, 1);
+
+-- commit the transaction
+COMMIT;
+
+CREATE TABLE more products (
+prd_id INTEGER PRIMARY KEY,
+prd_type_id INTEGER
+REFERENCES product_types (product_type_id),
+name VARCHAR(30) NOT NULL,
+available CHAR(1)
+);
+
+-- insert sample data into more products table
+INSERT INTO more products ( prd_id, prd_type_id, name, available) VALUES ( 1, 1, 'Modern Science', 'Y');
+INSERT INTO more products ( prd_id, prd_type_id, name, available) VALUES ( 2, 1, 'Chemistry', 'Y');
+INSERT INTO more products ( prd_id, prd_type_id, name, available) VALUES (3, NULL, 'Supernova', 'N');
+INSERT INTO more products ( prd_id, prd_type_id, name, available) VALUES (4, 2, 'Lunar Landing', 'N');
+INSERT INTO more products (prd_id, prd_type_id, name, available) VALUES (5, 2, 'Submarine', 'Y');
+
+select * from customers;
+
+select *
+from products p, product types pt
+where p.product_type_id = pt.product_type_id;
+
+desc products;
+
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p, product types pt
+where p.product_type_id = pt.product_type_id;
+
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p inner join product types pt
+on p.product_type_id = pt.product_type_id;
+
+select * from products;
+
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p left outer join product types pt
+on p.product_type_id = pt.product_type_id;
+
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p right outer join product types pt
+on p.product_type_id = pt.product_type_id;
+
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p left outer join product types pt
+on p.product_type_id = pt.product_type_id;
+union
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p right outer join product types pt
+on p.product_type_id = pt.product_type_id;
+
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p left outer join product types pt
+on p.product_type_id = pt.product_type_id;
+union all
+select p.product_id, p.name, p.product_type_id, pt.name, p.price
+from products p right outer join product types pt
+on p.product_type_id = pt.product_type_id;
+
+-- Aggregate functions
+-- sum, min, max, avg, count
+select sum(price), min(price) from products;
+
+select product_type_id, sum(price) from products
+group by product_type_id;
+
+-- Using a where clause
+select product_type_id, sum(price) from products
+where product_type_id >3
+group by product_type_id;
+
+select product_type_id, sum(price), avg(price), min(price) from products
+where product_type_id >= 3
+group by product_type_id
+having avg(price) <= 20;
+
+-- set operations
+-- union, union all
+select product_id, product_type_id, name from products
+union
+select prd_id, prdt_type_id, name from more_products
+
+select product_id, product_type_id, name from products
+union all
+select prd_id, prdt_type_id, name from more_products
+
+-- 3 table join
+select pu.product_id, p.name, pu.customer_id, c.first_name, c.last_name,pu.quantity
+from purchases pu inner join products p
+on pu.product_id = p.product_id
+inner join customers c
+on pu.customer_id = c.customer_id;
+
+select * from employees;
+
+--Self Join
+select e.employee_id, e.first_name, e.manager_id, m.first_name
+from employees e inner join employees m
+on e.manager_id = m.employee_id;
+
+select e.employee_id, e.first_name, e.manager_id, m.first_name
+from employees e left outer join employees m
+on e.manager_id = m.employee_id;
+
+-- Table structure for table `regions"
+CREATE TABLE IF NOT EXISTS `regions’ (
+‘REGION_ID` decimal(5,0) NOT NULL,
+‘REGION_NAME` varchar(25) DEFAULT NULL,
+PRIMARY KEY (‘REGION_ID`),
+UNIQUE KEY “sss" ("REGION_NAME")
+);
+
+-- Dumping data for table `regions"
+INSERT INTO `regions" ("REGION_ID`, `REGION_NAME") VALUES
+('1', 'Europe'),
+('2', 'Americas'),
+('3', 'Asia'),
+('4', 'Middle East and Africa'));
+
+select * from regions;
+
+-- Table structure for table countries
+CREATE TABLE IF NOT EXISTS countries (
+‘COUNTRY_ID` varchar(2) NOT NULL,
+‘COUNTRY_NAME` varchar(40) DEFAULT NULL,
+REGION_ID decimal(10,0) DEFAULT NULL,
+PRIMARY KEY (COUNTRY_ID`),
+KEY ‘COUNTR_REG_FK` (`REGION_ID`)
+);
+
+-- Dumping data for table countries
+INSERT INTO countries" ("COUNTRY_ID`, `COUNTRY_NAME", REGION_ID) VALUES
+('AR', 'Argentina', '2'),
+('AU', 'Australia', '3'),
+('BE', 'Belgium', '1'),
+(BR', 'Brazil', '2'),
+('CA', 'Canada', '2'),
+('CH', 'Switzerland', '1'),
+('CN', 'China', '3'),
+('DE', 'Germany', '1'),
+('DK' 'Denmark', '1'),
+(EG, Egypt', ‘4’),
+('FR', 'France', '1'),
+(HK', 'HongKong', '3"),
+('IL', 'Israel', '4'),
+('IN', 'India', '3'),
+('IT', 'Italy', '1'),
+('JP', 'Japan', '3'),
+('KW', 'Kuwait', ‘4’)
+('MX', 'Mexico', '2'),
+('NG', 'Nigeria', '4'),
+('NL', 'Netherlands', '1'),
+('SG', 'Singapore', '3'),
+('UK', 'United Kingdom', '1'),
+('US', 'United States of America’, ‘2'),
+('ZM', 'Zambia', '4'),
+('ZW', 'Zimbabwe', '4');
+
+-- Inner join
+-- 2 table inner join
+select c.country_id, c.country_name, c.region_id, r.region_name
+from countries c inner join regions r
+on c.region_id = r.region_id;
+

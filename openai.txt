@@ -1,0 +1,3 @@
+mygreatlearning openai
+gl-U2FsdGVkX19oX9dS3quWyjG+gp+unCNah4Pe3sgG8t7sp/e1ckfsKWJ9orQGBWtQ
+https://aibe.mygreatlearning.com/openai/v1

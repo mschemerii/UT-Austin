@@ -1,0 +1,28 @@
+Installing MySQL on Windows:
+
+ >> Go through this YouTube video for detailed instructions: https://www.youtube.com/watch?v=LnOnzNQnJMU
+
+ >> After opening the downloaded file, you can either choose 'Developer (Default)' OR 'Custom' as suggested in the video.
+
+ >> Keep all other default values (server settings and other values)
+
+ >> IMPORTANT: Do remember the password that you enter for 'root' user. Will be using this id for logging into MySQL.
+
+ >> Do not need to add any additional user (Unlike mentioned in the video).
+
+
+Installing MySQL on Mac:
+
+ >> Go to MySQL download Community Server (after Google search)
+
+ >> Select Operating System: macOS (in the listbox)
+
+ >> Download the macOS disk image (.dmg file)
+
+ >> Open the .dmg file and run the .pkg file in it
+
+ >> Run the wizard, keep all defaults and complete the installation
+
+ >> Do remember the root password which will be used for later login
+
+ >> You can also install MySQL Workbench (the front-end client) from the same downloads page.
