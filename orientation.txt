@@ -1,0 +1,1139 @@
+[Kingsly - Program Office] 09:31:06
+Great. We are expecting a few more learners to join in, so we will wait for a couple of minutes before we begin the session.
+
+[Kingsly - Program Office] 09:31:07
+In the meantime, I would like to know how everyone is doing. Please type your responses in the chat box.
+
+[Kingsly - Program Office] 09:33:07
+Great. Thank you for sharing your responses, everyone. And thank you so much for your patience.
+
+[Kingsly - Program Office] 09:33:12
+First of all, a very warm welcome and congratulations to all of you as we embark on this exciting journey of great learning.
+
+[Kingsly - Program Office] 09:33:21
+We are always thrilled at the launch of a new cohort to see professionals like you coming from different industries and geographies to upskill yourselves and power ahead.
+
+[Kingsly - Program Office] 09:33:31
+Before we begin, let's set up a few ground rules. All invited learners will be in listen-only mode to help deliver a smooth session by avoiding echo and any other unwanted disturbances
+
+[Kingsly - Program Office] 09:33:43
+To make most of the session, the session is going to be interactive. Please type your questions in the Q&A box to get them answered. We request you to type in questions that will benefit a larger audience.
+
+[Kingsly - Program Office] 09:33:55
+In case of any specific questions, please reach out to your program manager.
+
+[Kingsly - Program Office] 09:33:59
+Also, since this is an online session, in case of any technical issues, my fellow co-host Girisha will take over.
+
+[Kingsly - Program Office] 09:34:09
+Now, let me take this opportunity to introduce myself. My name is Kingsley, and I will be your program manager. I will be your presenter for today. We also have Ashim who will help us with the Olympus walkthrough
+
+[Kingsly - Program Office] 09:34:20
+Hello, Ashin.
+
+[Arsheen - Program Office] 09:34:25
+Hi, Kingsley. Hi, everyone.
+
+[Kingsly - Program Office] 09:34:27
+Great. Let's move on.
+
+[Kingsly - Program Office] 09:34:30
+Before today's
+
+[Kingsly - Program Office] 09:34:32
+Before moving on to today's agenda, I would like to quickly address an important program update.
+
+[Kingsly - Program Office] 09:34:38
+The postgraduate program in AI agents for Business Applications will have two pathways
+
+[Kingsly - Program Office] 09:34:44
+No code track and a code track.
+
+[Kingsly - Program Office] 09:34:47
+In the no-code track, you will be building AI agent solutions using tools that do not require programming.
+
+[Kingsly - Program Office] 09:34:55
+We will be using platforms like N8N and NotebookLM, where you can create and connect AI agent workflows using UI-based tools.
+
+[Kingsly - Program Office] 09:35:05
+On the other hand, in the code track, you will build similar AI agent solutions, but by writing codes using the programming language, Python
+
+[Kingsly - Program Office] 09:35:15
+This track is most suitable for learners with an inclination to code
+
+[Kingsly - Program Office] 09:35:19
+In this track, low-code and full code options will be available.
+
+[Kingsly - Program Office] 09:35:23
+Both tracks will enable the same learning outcomes and teach you how to utilize AI agents for solving business problems. The difference is just how you build on them.
+
+[Kingsly - Program Office] 09:35:35
+If you are opting for the code track, please stay with us as today's session is specifically designed for CodeTrack learners.
+
+[Kingsly - Program Office] 09:35:43
+If your preference is no code track, we are sharing the session link in the chat.
+
+[Kingsly - Program Office] 09:35:48
+The no-code Orientation session will begin at 10am Central Time, which is approximately 25 minutes from now.
+
+[Kingsly - Program Office] 09:35:56
+If you choose the no-code track and do not have access yet, please inform your program manager or raise a support ticket. They will ensure that the required access is provided by Monday if it has not already been processed.
+
+[Kingsly - Program Office] 09:36:12
+For any questions regarding the no-code track, please feel free to post them in the Q&A box and we will be happy to assist you.
+
+[Kingsly - Program Office] 09:36:21
+With that, let's get started with today's agenda.
+
+[Kingsly - Program Office] 09:36:26
+Now, going over today's agenda, first we will cover the program details, how it is structured, what are the key learning outcomes, and the curriculum.
+
+[Kingsly - Program Office] 09:36:36
+Following this, we will discuss the collaboration between UT Austin, McComb School of Business, and Great Learning.
+
+[Kingsly - Program Office] 09:36:43
+Our learning philosophy and the vehicles of learning delivery.
+
+[Kingsly - Program Office] 09:36:46
+We will then walk you through the tools and technology that you will need for this program, introduce you to your respective program manager, and talk about the next steps for you.
+
+[Kingsly - Program Office] 09:36:57
+Finally, following a break of 5 minutes, we will transition into the getting started with Gen Agentic AI session led by one of our mentors.
+
+[Kingsly - Program Office] 09:37:09
+Now, please join me in welcoming Amish, our mentor for today's session. He has been part of great learning since many years. He is currently working as a Chief Data Officer at Perkit.
+
+[Kingsly - Program Office] 09:37:22
+Hello, Amish
+
+[Amish Suchak] 09:37:25
+Hey, how's it going?
+
+[Amish Suchak] 09:37:28
+Is my audio coming out okay?
+
+[Kingsly - Program Office] 09:37:29
+Yes, Amish. Good to go.
+
+[Amish Suchak] 09:37:30
+Alright, perfect. Thanks for that introduction.
+
+[Amish Suchak] 09:37:33
+Hey, everyone. My name is Amish. I've been working in data science, machine learning, Gen AI for over 8 years, published many books and courses in the field. As Michael says, go Gators. I've graduated from the University of Florida with my master's in electrical computer engineering, and I've been working in this
+
+[Amish Suchak] 09:37:51
+Feel for a couple of years now. I've also shared my socials in the chat, so feel free to connect with me there if you have any questions about generative AI Agentic AI, or also how companies are thinking about adding in Agentic AI in their use cases. I also encourage you all
+
+[Amish Suchak] 09:38:08
+To share your LinkedIn the chat as well, so you can connect with your fellow peers in this program.
+
+[Amish Suchak] 09:38:15
+Alright, so if you go to the next slide
+
+[Amish Suchak] 09:38:17
+Let's start by getting a quick overview of how this program is structured. So this is going to allow you to get to at least understand what to expect over the next coming weeks.
+
+[Amish Suchak] 09:38:28
+Now, the program is going to be running for about 12 weeks and includes two learning breaks. And we build in these breaks on purpose so that it really allows you to schedule, give you some time to consolidate some of the key concepts, maybe catch up where you're needed, and then also prepare for the next stage of the program.
+
+[Amish Suchak] 09:38:45
+Now, during these 12 weeks, though, you'll be completing 3 mandatory courses, which makes up the core curriculum and then also contributes towards your certificate. You'll also have access to this one optional self-paced course, and this is going to allow you to explore some additional topic areas based on your interests, your availability, etc.
+
+[Amish Suchak] 09:39:06
+Now along with the coursework, you'll also have 7 mentored learning sessions, and these are going to be led by some of the global industry experts that are part of Great Learning
+
+[Amish Suchak] 09:39:15
+And these could be someone like me, for example, who's been working in the industry for a couple of years. It could be other mentors, etc.
+
+[Amish Suchak] 09:39:22
+And I would say, like, a lot of these live interactive sessions really help you connect some of the, you know, theoretical concepts that you might have learned in the classes, or in the curriculum, with actual and practical applications, as well as real-world business scenarios.
+
+[Amish Suchak] 09:39:36
+Right? With the whole goal over here is, like, well, how can you actually take what you've learned
+
+[Amish Suchak] 09:39:42
+And then apply it in a product or an industry. And how do you create agents? Because creating a proof of concept for an agentic AI solution is not that difficult, but understanding what goes into scaling that to
+
+[Amish Suchak] 09:39:56
+Hundreds of thousands of millions of different customers, and what are all of the trade-offs that are required there? That is where the true learning kind of comes in
+
+[Amish Suchak] 09:40:06
+Do we want to deploy this to the cloud? Do we need to have a containerized solution? Does it need to be like specialized agent service like Agent Core? How do we consider all of those different trade-offs? Now, your learning is also going to be reinforced with seven quizzes and three hands-on projects, right? So we like to be very practical
+
+[Amish Suchak] 09:40:26
+With this course, so, like, providing you with a lot of, like, hands-on experience with building. So, I don't like looking at a bunch of slides and, you know, telling myself that I know something. No, I feel like I know something when I'm actually built it from scratch.
+
+[Amish Suchak] 09:40:38
+Now, each of these projects also has a dedicated project week, so it allows you to really focus your time and energy on just working through that project and really apply what you've learned through, you know, building something. So really, I would say the program really combines the structured learning, expert guidance. We have regular assessments, and also hands-on application
+
+[Amish Suchak] 09:40:59
+So now that you have a kind of a sense of how the journey is organized, let's take a look at the capabilities that you'll be developing along the way.
+
+[Amish Suchak] 09:41:06
+We'll take a look at the next slide. Oh, there, oh, this slide. Great. For the key learning outcomes.
+
+[Amish Suchak] 09:41:12
+By the end of the program, you'll have developed five key capabilities. They'll take you from understanding the AI landscape to designing more advanced, agentic AI solutions. So.
+
+[Amish Suchak] 09:41:22
+We'll start by building a clear understanding of how artificial intelligence, machine learning, and deep learning, and also other words like generative AI and Agentic AI all kind of relate to each other
+
+[Amish Suchak] 09:41:35
+More importantly, you'll also learn to recognize where these technologies can address common business challenges across different industries.
+
+[Amish Suchak] 09:41:43
+So we want to understand, well
+
+[Amish Suchak] 09:41:46
+In healthcare, for example, how do we build an agentic AI solution? And how do we scale it? How do we monitor it? How do you account for observability? How do we account for things like safety and reliability? If we're working with real patient data, we want to make sure that we have guardrails
+
+[Amish Suchak] 09:42:05
+That will prevent the agent from going rogue and just going out and, like, starting to do random stuff with patient data. We definitely don't want that situation.
+
+[Amish Suchak] 09:42:14
+Now, from there, you'll also learn how to apply generative AI, large language models, and concepts like retrieval augmented generation or RAG, to help improve some business productivity.
+
+[Amish Suchak] 09:42:24
+Now, this could involve using some organizational knowledge more effectively. We can also work with things like automating content-driven tasks or maybe streamlining some repetitive workflows. Think about something that someone in your company does that you feel like, oh, this can definitely be automated in some way using AI. Well, we learn about what those use cases could be and also how we can
+
+[Amish Suchak] 09:42:45
+Build those automations really quickly.
+
+[Amish Suchak] 09:42:48
+Then you'll go into developing some context-aware, single-agent systems. So we'll be integrating things like tools and memory, and you'll enable agents to be able to not just retain information, but also how we can have our agents interact with external systems
+
+[Amish Suchak] 09:43:03
+And then also carry out some tasks with more independence
+
+[Amish Suchak] 09:43:07
+The next capability, it really focuses on planning and reasoning. So you'll learn how agents can kind of break down some complex objectives into some smaller tasks and decide how we can approach them. We can also learn to adapt when conditions change.
+
+[Amish Suchak] 09:43:20
+So these strategies is really what allows the Agentic AI systems to handle more complex and dynamic workflows.
+
+[Amish Suchak] 09:43:28
+And then you'll move from just building very simple single agent systems to actually being able to build multi-agent ecosystems
+
+[Amish Suchak] 09:43:38
+So, this is where you'll have the several specialized agents working together to build some sort of a shared objective. You learn how you can evaluate these systems for things like scalability for transparency, for reliability
+
+[Amish Suchak] 09:43:54
+All of which are important considerations when we are building enterprise grade applications.
+
+[Amish Suchak] 09:44:00
+So we really go from understanding the technologies to building, coordinating, and also evaluating these systems
+
+[Amish Suchak] 09:44:07
+Now, in the next slide, we'll take a look at how the curriculum is going to be organized to address the outcome. So, we can see that it kind of follows a progressive structure. Each course is kind of preparing you for the next level of complexity.
+
+[Amish Suchak] 09:44:20
+Now, we start off with just pre-work, right? Then this becomes available as soon as you enroll. It's just giving you an introduction to the Agentic AI landscape, right? It's helping you identify potential business opportunities. I want you to think about this because, like, everywhere that I go nowadays, everyone has, like.
+
+[Amish Suchak] 09:44:39
+Business idea, and it's really cool to actually be… have access to tools like Claude, like ChatGPT soul model, or we have tools like Replit and Base44 and all of these different tools that allow you to build app
+
+[Amish Suchak] 09:44:53
+Really quickly and everyone's kind of like really excited about, like, where we are at right now. I feel like we're at the start of this, like, dot-com bubble, where everyone can, like, anyone that has an understanding of how you can get to that first customer, or an understanding of a problem.
+
+[Amish Suchak] 09:45:10
+And
+
+[Amish Suchak] 09:45:12
+They have a good vision of how we can go from A to, like, having someone, you know buy our actual product. Now it doesn't have to, you know, worry about this complexity of, like, having, you know, coming up with a capital of, like, $50,000 or $70,000 of an investment. Now we have these tools that can go out and build the prototypes really easily
+
+[Amish Suchak] 09:45:31
+And get feedback as quickly as possible to go out and, like, build things. So we are… I feel like we're in this, like, perfect and opportune time to learn about, like, these systems, especially Agentic AI, because it can solve these problems that previously they were unheard of, like being able to like solve like the level of like complexity that goes into
+
+[Amish Suchak] 09:45:49
+The Agentic AI and how it can solve all of these complex, you know niche situations and understand business logic, all of those things. It's pretty cool. So we'll understand like what is Agentic AI will get an idea about the landscape. We'll learn how we can identify business opportunities, learn how we can develop the foundational Python skills
+
+[Amish Suchak] 09:46:08
+That would be needed for the program
+
+[Amish Suchak] 09:46:11
+And also get a high-level overview of, like, what these systems kind of look like.
+
+[Amish Suchak] 09:46:17
+Now the first mandatory course is going to be the Agentic AI Foundations, and this really is going to be our technical base for the program, right? Here is where we'll learn things like large language models, what is prompt engineering, what are some techniques in RAG, for example. We'll learn how these components can be combined to create AI solutions
+
+[Amish Suchak] 09:46:36
+That can generate more relevant and context-aware responses.
+
+[Amish Suchak] 09:46:40
+The second course, that's where we have the business applications with Agentic AI. And here we introduce some of the building blocks that make the AI systems more autonomous. So we'll learn about how we can have, you know, agents explore RAG in more detail, how we can
+
+[Amish Suchak] 09:46:56
+Scale rag, how we can use components like tools and memory, how we can use planning reasoning strategies to make better decisions, how we can perform tasks, how we can respond to some more complex business situations. We don't just want our agent to be, like, a random chatbot, right, that answers questions. We want it to actually be able to go and do something and be intelligent
+
+[Amish Suchak] 09:47:15
+And in the final course, that's where we have the business applications with Agentic AI solution. So this is where we really bring in all of the capabilities by helping us design these multi-agent systems. So we'll understand how we can integrate all of these tools, memory, and all reasoning components
+
+[Amish Suchak] 09:47:33
+And being able to solution them, containerize them, and also deploy them to be able to scale to, like, millions of users
+
+[Amish Suchak] 09:47:42
+Now, here we also have the multimodal generative AI masterclass, and this is going to expand your learning beyond just the simple text-based systems. We'll explore how agents can actually work with different forms of information like images and other data types.
+
+[Amish Suchak] 09:47:57
+So, this is the overall structure of the curriculum, and you can see it moves from just basic foundational concepts to actually being able to build and deploy and understand how we, design considerations for complete autonomous Agentic AI solutions.
+
+[Amish Suchak] 09:48:14
+So, this kind of structure really helps you build on each capacity and sequence, and then also gives you an opportunity to apply your learning throughout the whole program. So with that being said, I'm gonna hand it back over, so, also see if there's any additional questions
+
+[Amish Suchak] 09:48:29
+But yeah, over back to you.
+
+[Kingsly - Program Office] 09:48:33
+Thank you, Amish. Now we have received a few questions from our learners and I would like to present them to you.
+
+[Kingsly - Program Office] 09:48:40
+Your insights and guidance will help them gain clarity and confidence as they begin this learning journey.
+
+[Kingsly - Program Office] 09:48:45
+So to begin with, the first question is, what is the benefit of Agentic AI over simpler tools like Copilot or Claude?
+
+[Amish Suchak] 09:48:54
+Sure. So
+
+[Amish Suchak] 09:48:57
+Claude and Copilot and all of these tools are great when you want to build systems. Imagine that you have a cool app idea. Great, you can build the app using Claude.
+
+[Amish Suchak] 09:49:09
+Now, where Agentic AI comes in is imagine that you want your customer
+
+[Amish Suchak] 09:49:15
+To be able to interact with agents. Imagine that you're building a healthcare platform where
+
+[Amish Suchak] 09:49:22
+suppose that you're… a problem that you want to solve is, right now, hospitals, whenever they have, like, you know, a claim or something, like, say that, like, a patient comes into a hospital, they get treated, and the hospital has to send that information to the insurance company
+
+[Amish Suchak] 09:49:38
+The insurance company says, no, I'm going to deny this claim, right? I'm not going to pay you for treating this patient. Well, the hospital has to do something called create an appeals letter, and it's a huge process. It involves, like, you know, you have to go out to the case manager, ask the physician things
+
+[Amish Suchak] 09:49:54
+And it's pretty expensive, you know, for the hospital's time to be able to create that entire appeal letter.
+
+[Amish Suchak] 09:50:01
+Now, you can build something like a large language model to be able to go out and just write the appeals letter, but the Agentic AI system comes in when you want multiple agents going out and doing different things. So you could have one agent that's pulling in all the patients' labs and vitals reports
+
+[Amish Suchak] 09:50:19
+You have another agent that's going out and doing all the documents processing. And you have another agent that's going out and doing like XYZ and all of these agents combine all of their knowledge and send it over to an orchestrator agent that's going to be in charge of like writing the full appeals letter and everything from scratch and then providing to the insurance company
+
+[Amish Suchak] 09:50:39
+So Agentic AI really allows you to build agent-based systems for your end user. Now, the hospital doesn't know that there's an agentic AI system in place versus when you're just building something using tools like Claude and
+
+[Amish Suchak] 09:50:53
+you know, Copilot, whatever, that just allows you to use the system. Agentic AI is where you allow the customers to be able to use those systems.
+
+[Amish Suchak] 09:51:01
+Is that hopefully that makes sense
+
+[Kingsly - Program Office] 09:51:03
+Got it.
+
+[Kingsly - Program Office] 09:51:04
+So basically a very structured approach to get what you wanted, but different agents doing specific tasks to give more clarity on what the workflow is.
+
+[Kingsly - Program Office] 09:51:15
+The next question, Amish, to you is Agentic AI has moved from an emerging landscape to something much more established in just six months. From your perspective, what capabilities, what skills should professionals focus on right now to stay relevant
+
+[Kingsly - Program Office] 09:51:30
+As this technology matures
+
+[Amish Suchak] 09:51:33
+Great question. So
+
+[Amish Suchak] 09:51:35
+At the end of the day, and all an agent is a large language model
+
+[Amish Suchak] 09:51:42
+that has access to
+
+[Amish Suchak] 09:51:44
+tools that can do things and memory.
+
+[Amish Suchak] 09:51:48
+So when I say tools, imagine that you have ChatGPT that has access to Gmail
+
+[Amish Suchak] 09:51:53
+Right? And it can go out and send emails. It has memory because imagine that like you're using ChatGPT over time, it understands you, right? If you know what I'm talking about, it's like it knows your preferences. It understands like sometimes it knows based on like, oh, that you work at this company
+
+[Amish Suchak] 09:52:11
+You have a dog or something like that, so it can bring up, like, past memories into the current conversation
+
+[Amish Suchak] 09:52:17
+Now, everything else that we've built over the last six months or a year or whatever, all of these new terms that you might have heard or seen about in the industry, like harness engineering or loop engineering and all of those things
+
+[Amish Suchak] 09:52:32
+They're all just kind of based on the most basic foundational knowledge of what is a large language model. And as long as we can give an LLM access to a tool and memory, and then we can add in more layers of agents and sub-agents
+
+[Amish Suchak] 09:52:49
+You know, complete autonomy of agentic systems, all of those things, they're all based on the same exact foundation. So if you can master those foundations, right, like understand like at the core level, how an LLM actually works, functions, and how it's able to call tools and memory
+
+[Amish Suchak] 09:53:07
+Everything else that comes after it is just, like, built on the same exact foundation. So nothing else changes there. So I think that as long as you have a solid understanding of how the foundational elements and components work
+
+[Amish Suchak] 09:53:20
+Not only is it going to help you understand how, you know, things currently work, but also any new concept or new idea in the next
+
+[Amish Suchak] 09:53:29
+12 months, I have no idea what people are gonna come up with, but I'm pretty sure that it's going to be based on the same exact foundation, which is an agent is an LLM with tools and memory. That's it.
+
+[Kingsly - Program Office] 09:53:39
+Got it. So, basically, just concentrate on making your foundations as strong as possible.
+
+[Amish Suchak] 09:53:44
+Correct.
+
+[Kingsly - Program Office] 09:53:46
+The next question, Amish is what is the benefit of Agentic
+
+[Kingsly - Program Office] 09:53:51
+The next question is, do we need a lot of coding experience to be successful in this program?
+
+[Amish Suchak] 09:53:58
+Yeah, great question.
+
+[Amish Suchak] 09:54:00
+So I'll tell you like as a software developer and also someone that has multiple people that report to me and like how they are also kind of thinking about developing software now
+
+[Amish Suchak] 09:54:16
+Most software engineers at this point are not writing code.
+
+[Amish Suchak] 09:54:19
+And I know that's gonna roll a lot of eyes. People are not gonna like me saying that right now, but it is true, even at bigger companies now, a lot of the people, a lot of these software engineers now are just using AI to write the code.
+
+[Amish Suchak] 09:54:34
+And the term for it is token maxing, but they're token maxing to write all of the, like, code and everything
+
+[Amish Suchak] 09:54:40
+And yes, there are pros and cons to this. The con, of course, is that it takes away the whole fun of software engineering. I loved writing code and solving problems and, you know, being able to do something manually and come up with a solution, versus now I just throw it into the AI and can go and
+
+[Amish Suchak] 09:54:56
+solve something for me, and I don't… I don't get the same, you know, happiness, solving that problem anymore, but it allows me to, like, abstract away a lot of the low-level code writing, and think big picture, right? Like, how
+
+[Amish Suchak] 09:55:10
+How is the thing that I'm trying to build actually going to benefit the end user? You might have seen in the last year or so, like, there's a bigger focus on a new job title that might have… you might have heard about, which is called the forward deployed engineer. And you might have seen
+
+[Amish Suchak] 09:55:28
+So many of those forward-deployed engineers, it's all about, like, not about writing code, because no one cares, like, okay, everyone can write code now
+
+[Amish Suchak] 09:55:37
+But understanding, like, how this code relates to what the end user is actually looking for. So, thinking more about, like, these systems and the solutions that you're building, and how it's going to be impacting, influencing the customer. So it's more on product mindset
+
+[Amish Suchak] 09:55:53
+Right? Understanding or having the domain and business experience, understanding, like, what are the types of things that the end user would want, thinking more about, like, UI and also UX, like, the user experience understanding of, like, well, I want a button to be here versus there, and
+
+[Amish Suchak] 09:56:09
+How do you make people, like, stay on the website for longer? Those kind of things is a little bit more focused now compared to, like, this low-level code.
+
+[Amish Suchak] 09:56:18
+So to answer the bigger question, right, like, do we need to have this huge, you know, coding background experience now to build these agentic AI systems? And I'm going to argue no, but, you know, it's an ongoing debate, right? A lot of people will say, like, it's still required
+
+[Amish Suchak] 09:56:32
+I'm not going to say that you don't need any sort of coding knowledge completely, entirely. Some of it, of course, is always going to be useful, and it's ironic that I'm saying it because I come in with a lot of manual coding background. I have a lot of, like, you know, experience and understanding of how systems work as a whole
+
+[Amish Suchak] 09:56:51
+But I've also seen like interns or second year university students being able to almost design identically the same systems that I have created from scratch. So
+
+[Amish Suchak] 09:57:02
+you know, do we need that same level anymore? I would probably argue that no, we don't.
+
+[Kingsly - Program Office] 09:57:08
+Got it.
+
+[Kingsly - Program Office] 09:57:09
+Thank you again for taking your time and sharing your insights, Amish. I'm sure the learners have taken away a lot from… a lot of value from this conversation. Of course, you will be with us a little longer, since we have a few more slides to cover before we move into your session.
+
+[Kingsly - Program Office] 09:57:25
+Until then, you can take a quick break, Amish, or answer a few questions that are directed towards you.
+
+[Amish Suchak] 09:57:30
+Sure, alright, sounds great. Thanks, Kigli. Over back to you
+
+[Kingsly - Program Office] 09:57:32
+Thank you, Amish.
+
+[Kingsly - Program Office] 09:57:36
+Let us now explore in brief about great learning. We were established in the year 2013 with no more than 30 learners. And now, through the years, we have delivered more than 388 million hours of learning
+
+[Kingsly - Program Office] 09:57:52
+and impacted the lives of over 11 million plus working professionals
+
+[Kingsly - Program Office] 09:57:57
+In all of this, we have been constantly helped by our pool of 7,400 plus gurus who are working with us at different capacities, be it mentors, content creators, evaluators, or more.
+
+[Kingsly - Program Office] 09:58:10
+Our programs are delivered through Olympus. Our in-house proprietary learning management system, which is continuously being improved upon by our team of experts to innovate and offer a seamless learning experience.
+
+[Kingsly - Program Office] 09:58:26
+Now, let's move ahead and look at the dynamic collaboration between UT Austin and grade learning
+
+[Kingsly - Program Office] 09:58:33
+UT Austin serves as the academic partner, meaning the curriculum and the content is vetted by UT Austin.
+
+[Kingsly - Program Office] 09:58:40
+The majority of the recorded video content will be delivered by UT Austin faculty, along with a few case studies.
+
+[Kingsly - Program Office] 09:58:48
+Upon successful completion of this program, you will be awarded with a certificate issued by the UT Austin
+
+[Kingsly - Program Office] 09:58:55
+Issued by UT Austin in collaboration with Great Learning
+
+[Kingsly - Program Office] 09:59:00
+Great learning, on the other hand, is the delivery partner, meaning the delivery of the program is handled by Great Learning's program team.
+
+[Kingsly - Program Office] 09:59:08
+This includes the learning management system, Olympus, which I hope all of you have logged in by now. If you haven't logged in yet, I encourage you to do so as soon as possible.
+
+[Kingsly - Program Office] 09:59:19
+We share a lot of important announcements and communications through Olympus, which we do not want you to miss out on.
+
+[Kingsly - Program Office] 09:59:26
+We also provide mentored learning sessions where you will have the opportunity to interact directly with the industry experts.
+
+[Kingsly - Program Office] 09:59:34
+Additionally, you will have learning support from both your program manager and our academic team, ensuring you are well guided throughout your learning journey.
+
+[Kingsly - Program Office] 09:59:46
+You will also be provided with video content from great learning faculty, along with a few case studies and assessments.
+
+[Kingsly - Program Office] 09:59:54
+Now let's take a look at the learning philosophy.
+
+[Kingsly - Program Office] 09:59:58
+There are many AIC organizations that deliver high quality content to enable learning from the comfort of your home
+
+[Kingsly - Program Office] 10:00:05
+But when we entered this segment, we realized that just delivering high quality content would not lead to successful learning outcomes and careers.
+
+[Kingsly - Program Office] 10:00:14
+To achieve true learning outcome, one needs a clear, well-structured, and comprehensive path
+
+[Kingsly - Program Office] 10:00:21
+In this program, you will have access to high-quality recorded content delivered by the faculty of UT Austin and great learning
+
+[Kingsly - Program Office] 10:00:30
+We firmly believe in learning through practical experience. First, you will study the material and then put your knowledge into practice through case studies and exercises.
+
+[Kingsly - Program Office] 10:00:41
+But just consuming the recorded content and practicing on your own isn't enough to be able to apply the skills required in the industry, especially if you're someone new to the domain.
+
+[Kingsly - Program Office] 10:00:53
+To help you become industry ready, you will have access to a mentor, a dedicated industry expert who has the expertise to apply the relevant skills.
+
+[Kingsly - Program Office] 10:01:03
+Your mentor will be able to guide you by providing industry insights throughout the program.
+
+[Kingsly - Program Office] 10:01:10
+In addition to self-practice and assessments, you will be regularly judged using regular assessments to help you track your understanding of the concepts learned
+
+[Kingsly - Program Office] 10:01:23
+You will receive personalized feedback to highlight both your strengths as well as the areas of improvement.
+
+[Kingsly - Program Office] 10:01:30
+Learning a new concept and developing a practically applicable skill can be challenging.
+
+[Kingsly - Program Office] 10:01:36
+To support you throughout your learning journey, you will have access to a dedicated program manager whom you can reach out to if you're facing any difficulty or concerning any aspects of the program.
+
+[Kingsly - Program Office] 10:01:49
+In addition to your program manager, you will have access to an entire learning support ecosystem that is dedicated to providing timely and quality academic support
+
+[Kingsly - Program Office] 10:01:59
+Lastly, we believe in the power of networking.
+
+[Kingsly - Program Office] 10:02:03
+In this program, you will have a tremendous opportunity to network with your mentors and your peers.
+
+[Kingsly - Program Office] 10:02:12
+Now, I would like to take you all through the vehicles of learning delivery and give a brief idea on how your learning journey would look like.
+
+[Kingsly - Program Office] 10:02:19
+But before that, I have a quick question for you all, and you can share your responses in the poll raised. Just allow me a moment
+
+[Kingsly - Program Office] 10:02:31
+The question is, which approach to learning do we follow?
+
+[Kingsly - Program Office] 10:02:35
+First, is it a flipped classroom approach or is it a traditional classroom approach?
+
+[Kingsly - Program Office] 10:03:22
+All right, let me stop the poll.
+
+[Kingsly - Program Office] 10:03:26
+This is great
+
+[Kingsly - Program Office] 10:03:27
+Majority of the responses are correct. We do follow the flipped classroom approach.
+
+[Kingsly - Program Office] 10:03:33
+In the flipped classroom approach, you will be expected to go through the course content in the form of recorded lectures and practice exercises
+
+[Kingsly - Program Office] 10:03:43
+Then, you will attend a mentor learning session on the weekend
+
+[Kingsly - Program Office] 10:03:48
+In the first half of this mentored learning session, the mentor will take up a case study so that you can have hands-on practice, and then in the second half, there will be a Q&A round for doubt resolution.
+
+[Kingsly - Program Office] 10:04:02
+But the question is, why a flipped classroom approach over a traditional one?
+
+[Kingsly - Program Office] 10:04:08
+In the flipped classroom approach, it is designed in such a way to offer flexibility. It allows you to learn and practice concepts at your own pace.
+
+[Kingsly - Program Office] 10:04:16
+The course content and the practice materials are meant to be accessed outside of class.
+
+[Kingsly - Program Office] 10:04:22
+Then, over the weekend, you can actively participate in the live session with an industry expert
+
+[Kingsly - Program Office] 10:04:30
+Now, let's discuss the vehicles of learning delivery.
+
+[Kingsly - Program Office] 10:04:34
+You will access the course content in the form of recorded video lectures of two to three hours a week
+
+[Kingsly - Program Office] 10:04:41
+Along with videos, reference reading materials and conceptual quizzes will also be shared on Olympus.
+
+[Kingsly - Program Office] 10:04:48
+You will attend the mentored learning session over the weekend. These sessions are live and collaborative spaces with an industry expert to walk you through a case study and share your industry insights.
+
+[Kingsly - Program Office] 10:05:00
+It is important to make the most out of these sessions by coming prepared and asking the right questions to strengthen your understanding.
+
+[Kingsly - Program Office] 10:05:09
+You will then practice concepts hands-on using different practice exercises, quizzes, and case studies
+
+[Kingsly - Program Office] 10:05:16
+You will also be provided with projects for hands-on business problem solving.
+
+[Kingsly - Program Office] 10:05:21
+Let's quickly go through how a usual learning week would look like.
+
+[Kingsly - Program Office] 10:05:27
+First is to watch recorded video lectures. These will help you understand the fundamental concepts and practical implementation.
+
+[Kingsly - Program Office] 10:05:35
+Second is practice hands-on and read. These will help you explore the concepts you have learned and test your understanding.
+
+[Kingsly - Program Office] 10:05:43
+Third is to attend your mentored learning session. Walk through a case study with the industry expert to gain insights on application and perspective. You can also clarify your doubts.
+
+[Kingsly - Program Office] 10:05:55
+Finally, submit a graded assessment. These have specified deadlines and are supposed to be submitted by the due date
+
+[Kingsly - Program Office] 10:06:05
+Now, let's see how the weekly operating rhythm looks like.
+
+[Kingsly - Program Office] 10:06:09
+The weekly recorded content, reading material, and practice materials are released every Thursday. You will have almost a week's time to cover it.
+
+[Kingsly - Program Office] 10:06:18
+You will then attend the mentored learning session in the following weekend, where a case study will be discussed based on the topics you have covered.
+
+[Kingsly - Program Office] 10:06:27
+post this, there will be a quiz with the submission deadline of Sunday end of the day
+
+[Kingsly - Program Office] 10:06:33
+At the end of every course, you will have a project with a dedicated week allotted to complete the same.
+
+[Kingsly - Program Office] 10:06:39
+We will also provide you with a project Q&A session on Saturday of the project week
+
+[Kingsly - Program Office] 10:06:45
+This must be… this is… this must be used to clarify your doubts related to the project
+
+[Kingsly - Program Office] 10:06:52
+I would request you all to please go through the weekly operating rhythm here
+
+[Kingsly - Program Office] 10:07:05
+Now, a little about the structure of the mentor learning sessions. As you can see, a majority of time is spent on the case study where you will be discussing a business problem and its approach
+
+[Kingsly - Program Office] 10:07:36
+effective implementation.
+
+[Kingsly - Program Office] 10:07:37
+The session will also include a quick conceptual recap of the weekly content, along with doubt resolution.
+
+[Kingsly - Program Office] 10:07:47
+Now, let's talk about the graded assessments. But before that, I have another quick question, but this time please share your responses in the chat.
+
+[Kingsly - Program Office] 10:07:57
+The question is, what is the minimum percentage required to successfully complete the program
+
+[Kingsly - Program Office] 10:08:03
+The first option, 60%
+
+[Kingsly - Program Office] 10:08:08
+65% or 70%. Let me repeat the question. What is the minimum percentage required to successfully complete the program?
+
+[Kingsly - Program Office] 10:08:18
+60%, 65%, or 70%
+
+[Kingsly - Program Office] 10:08:25
+Great to see the responses. Yes. Assessments, as they are a key part of your program, a minimum grade of 60% is required in each module for its successful completion.
+
+[Kingsly - Program Office] 10:08:37
+You will be taking quizzes every week based on the concepts covered in the weekly content. The quizzes will account for 30% of grades in each module.
+
+[Kingsly - Program Office] 10:08:48
+Each module will also have a project in which you will be solving a business problem hands-on.
+
+[Kingsly - Program Office] 10:08:54
+The project will have two versions, low-code and full code. In the low-code version, you will be provided with a template code notebook with blanks. You are supposed to fill in the blanks, execute the code, and submit a business presentation
+
+[Kingsly - Program Office] 10:09:10
+With insights and recommendations based on your analysis.
+
+[Kingsly - Program Office] 10:09:14
+On the other hand
+
+[Kingsly - Program Office] 10:09:15
+In the full code version, you will be required to write the necessary code from scratch to solve the business problem at hand.
+
+[Kingsly - Program Office] 10:09:23
+You will have to submit a notebook along with your insights and recommendation based on the analysis.
+
+[Kingsly - Program Office] 10:09:30
+You can choose whichever version of the project suited to your aspirations
+
+[Kingsly - Program Office] 10:09:36
+Also, there are no extensions provided for the project. If you miss a deadline, you will have to work on another project.
+
+[Kingsly - Program Office] 10:09:44
+Please note, the project will account for 60% of grades in each module
+
+[Kingsly - Program Office] 10:09:50
+Finally, we have attendance. Attendance is mandatory for mentored learning session. This accounts for the remaining 10% of grades in each module
+
+[Kingsly - Program Office] 10:10:05
+Let us now explore the support ecosystem to help clarify any doubts you may have regarding the program.
+
+[Kingsly - Program Office] 10:10:13
+First one is Olympus, a learning management system. All content, assessments, and important announcements will be delivered via this dashboard. You can also raise support requests by clicking on the question mark icon present on the top right of your screen.
+
+[Kingsly - Program Office] 10:10:31
+For any concerns, our team will be able to reach out to you in 24 to 48 hours
+
+[Kingsly - Program Office] 10:10:37
+The next channel is your program manager. As you know, Tanya is your program manager. She will be your primary point of contact throughout your journey. You can reach out to her via call, WhatsApp, or email.
+
+[Kingsly - Program Office] 10:10:51
+Now, while your program manager may not be an academic expert or a technical expert, but she will most likely be able to redirect your query to the right channel
+
+[Kingsly - Program Office] 10:11:01
+So we would request you to reach out to your program manager and stay in touch with her.
+
+[Kingsly - Program Office] 10:11:06
+The next channel is program office email ID. If you have any program related concerns, suggestions or feedback, please feel free to write to us on this email address.
+
+[Kingsly - Program Office] 10:11:19
+The next channel is WhatsApp
+
+[Kingsly - Program Office] 10:11:21
+WhatsApp is an ad hoc communication channel. Your program manager will be creating WhatsApp group by next week for peer interaction.
+
+[Kingsly - Program Office] 10:11:30
+The next channel for support is Great Learning Community. This is a pure connectivity forum with over 10,000 members, which includes alumni learners, academic team members, mentors, and more.
+
+[Kingsly - Program Office] 10:11:44
+You can participate in online open discussions over topics related to data science and artificial intelligence. You can write blogs, ask questions, seek collaboration from other members of the community.
+
+[Kingsly - Program Office] 10:11:58
+And last but not the least, we have Glade. Glade is an AI-powered learner support feature on Olympus, which is aimed at providing instant and personalized assistance.
+
+[Kingsly - Program Office] 10:12:10
+Now, this feature can be used for video content. It helps answer common questions about topics, give guidance on hands-on part
+
+[Kingsly - Program Office] 10:12:19
+It can also be used for projects, acting like a guide by helping you with project-related queries, such as problem statements, approaches, guidance on code, and more.
+
+[Kingsly - Program Office] 10:12:31
+Glade is also dedicated to hands-on coding as an online code editor integrated into Olympus. It allows you to write and run codes, providing personalized hints and guidance to help you progress.
+
+[Kingsly - Program Office] 10:12:46
+Now, this is what your learning schedule looks like. It is available under the program overview module
+
+[Kingsly - Program Office] 10:12:52
+This will help you keep a track of the content release dates, your assessment deadlines, and the weekends for your mentor learning sessions.
+
+[Kingsly - Program Office] 10:13:03
+Now, let's have a look at the tools and technologies you will be using in this program.
+
+[Kingsly - Program Office] 10:13:09
+First, of course, is a learning management system
+
+[Kingsly - Program Office] 10:13:12
+We also have the great learning application for mobile devices. Apart from mobility and possibility of having access on the go, the application also has an interesting feature
+
+[Kingsly - Program Office] 10:13:23
+You can download the recorded content and access it offline, a feature that will be very useful, especially when you are traveling or when you are at a place with low network connectivity.
+
+[Kingsly - Program Office] 10:13:35
+Lastly, we have the Zoom application. The mentor learning sessions will be conducted over Zoom platform, so we would request you to have the app installed in your preferred device.
+
+[Kingsly - Program Office] 10:13:45
+Please ensure you are checking your audio and video connectivity before you join for your sessions.
+
+[Kingsly - Program Office] 10:13:52
+Now, I would like to call upon Ashim from the Program Office team to walk us through the Olympus dashboard.
+
+[Kingsly - Program Office] 10:13:59
+Over to you, Ashin.
+
+[Arsheen - Program Office] 10:14:05
+Hi, Kingsley. Thanks a lot. Can you please confirm if my voice is audible
+
+[Kingsly - Program Office] 10:14:11
+Yes, Ershin. Clearly audible.
+
+[Arsheen - Program Office] 10:14:13
+Okay, that's great. Just give me a minute, I'm sharing my screen.
+
+[Arsheen - Program Office] 10:14:22
+Thanks, Lee, can you also confirm if my dashboard is visible
+
+[Kingsly - Program Office] 10:14:25
+Yes, Ashim, good to
+
+[Arsheen - Program Office] 10:14:27
+Okay, thank you.
+
+[Arsheen - Program Office] 10:14:29
+So, yeah, everyone, this is how your dashboard would look like. Once you log in using your email address as well as your password
+
+[Arsheen - Program Office] 10:14:37
+Let us start beginning from the Learning Activity section. So you have two sections over here, the active and the completed section
+
+[Arsheen - Program Office] 10:14:45
+The active section will give you the list of all the active and upcoming sessions. Under the completed section, you can watch the recordings of any session that has already been completed.
+
+[Arsheen - Program Office] 10:14:56
+Towards the right-hand side of your dashboard, you will be able to see the program name as well as the name of your cohort
+
+[Arsheen - Program Office] 10:15:03
+Below that, you have the list of the courses that are complete, incomplete, or at risk
+
+[Arsheen - Program Office] 10:15:10
+Just below that, you have the attendance section
+
+[Arsheen - Program Office] 10:15:13
+You will be able to see your overall attendance percentage, as well as the attendance in each and every sessions by clicking on the attendance section.
+
+[Arsheen - Program Office] 10:15:24
+Next, we have the gradebook.
+
+[Arsheen - Program Office] 10:15:27
+The gradebook shows your overall grades for all the modules. If you scroll below, we have given you the grade point key for your reference.
+
+[Arsheen - Program Office] 10:15:36
+towards the right, you will have your credits earned, as well as your GPA
+
+[Arsheen - Program Office] 10:15:42
+any module that is in progress, complete, or incomplete
+
+[Arsheen - Program Office] 10:15:47
+Going back to our dashboard, below the gradebook feature, we have a very interesting option of refer and earn
+
+[Arsheen - Program Office] 10:15:54
+So you can use this feature to refer your program or any other program to your friends, family, and colleagues, and both of you can get monetary benefits.
+
+[Arsheen - Program Office] 10:16:05
+I'll show you how you can do it. Simply click on any program that you would want to refer, for example, your own program
+
+[Arsheen - Program Office] 10:16:12
+Click on refer friend
+
+[Arsheen - Program Office] 10:16:14
+This gives you a unique link. If your friends, family or colleague register to the program by enrolling from this particular link, both of you will get referral benefits.
+
+[Arsheen - Program Office] 10:16:27
+Towards the bottom, you have help and support options, which list frequently asked questions regarding help and support.
+
+[Arsheen - Program Office] 10:16:34
+On the right-hand side, you have a step-by-step guide on how it works
+
+[Arsheen - Program Office] 10:16:39
+Below that, you have referral history. If you refer anyone, the details would come under the referral history.
+
+[Arsheen - Program Office] 10:16:48
+This was mostly about, your dashboard. Let's now go to the activities tab.
+
+[Arsheen - Program Office] 10:16:54
+So the activities tab lists all the activities, including your sessions, quizzes, projects, or anything else.
+
+[Arsheen - Program Office] 10:17:03
+So you can filter the activities by type and status. For example, if I wish to look at the live classes that are already completed, I will click on live class completed and any completed live class with the recordings will be available over here
+
+[Arsheen - Program Office] 10:17:21
+Beside that, we have the courses section
+
+[Arsheen - Program Office] 10:17:24
+Right now, your courses section is divided into two parts, active and upcoming.
+
+[Arsheen - Program Office] 10:17:30
+Let's look into the pre-work course.
+
+[Arsheen - Program Office] 10:17:33
+Any course you open will have five subsections under it
+
+[Arsheen - Program Office] 10:17:37
+The first would be your Learning tab
+
+[Arsheen - Program Office] 10:17:40
+You will be able to find the course content, videos, reading materials, practice, and graded assessments, as well as the additional and reference learning material.
+
+[Arsheen - Program Office] 10:17:50
+Next, you have the mandatory assessment.
+
+[Arsheen - Program Office] 10:17:53
+Here, you will be able to find all your graded assessments in one place
+
+[Arsheen - Program Office] 10:17:59
+Next is the recordings. Any specific session happening under that particular course, you will get the recordings of those under the recording section.
+
+[Arsheen - Program Office] 10:18:09
+Inside the groups tab, you will be able to see the details of the group that you are a part of.
+
+[Arsheen - Program Office] 10:18:16
+Lastly, we have the Notes tab. You will be able to find all your saved notes in one place, which you can easily edit or delete.
+
+[Arsheen - Program Office] 10:18:25
+This was about pre-work. Let's have a look at the program overview module.
+
+[Arsheen - Program Office] 10:18:32
+Here, you will be able to find your learning schedule
+
+[Arsheen - Program Office] 10:18:38
+So the learning schedule is like a timetable to the program. This will provide you with the weekly content release dates for all the modules, the deadline for all the assessments, and the weekend mentor learning session dates.
+
+[Arsheen - Program Office] 10:18:50
+Please keep a tap on this learning schedule as it is going to be your guide throughout the course, and you would not want to miss out on any updates.
+
+[Arsheen - Program Office] 10:19:00
+After that, we have the upcoming courses. These are those modules that are locked and as and when you go ahead in the program, these will be unlocked.
+
+[Arsheen - Program Office] 10:19:12
+Let's look at some of the options towards the right side of your dashboard. We first have the search option. You can type in any keyword and any related topics related to the keyword will appear over here
+
+[Arsheen - Program Office] 10:19:28
+After that, we have the support icon
+
+[Arsheen - Program Office] 10:19:31
+So, this is a very important feature to get assistance throughout the program for both academic and any program office-related query.
+
+[Arsheen - Program Office] 10:19:41
+To raise a support request, simply click on Ask a question
+
+[Arsheen - Program Office] 10:19:44
+Click on any category
+
+[Arsheen - Program Office] 10:19:49
+Your particular module that you want to ask a query for any specific subcategory. Write in the description of your concern, attach any specific screenshots or any other files that are relevant to your concern
+
+[Arsheen - Program Office] 10:20:03
+And click on Ask a Question. This will then be directed to the program office. We will then direct it to the concerned teams, and you will get a response within 24 to 48 hours.
+
+[Arsheen - Program Office] 10:20:15
+So this was how you can raise a support request.
+
+[Arsheen - Program Office] 10:20:20
+Now, under this feature only, you can also schedule a call with your program manager.
+
+[Arsheen - Program Office] 10:20:25
+So you have an option to schedule a Zoom as well as a phone call. You would be getting all the different slots that your program manager is available for. You can select any that suits you the best, and you can connect at that specific time.
+
+[Arsheen - Program Office] 10:20:41
+Besides this, you have the Announcements icon. Visiting this page regularly will help you stay informed with the latest notifications and updates.
+
+[Arsheen - Program Office] 10:20:52
+Then you have the profile icon
+
+[Arsheen - Program Office] 10:20:57
+Here you have my ePortfolio. This is where you will be building your academic portfolio. All the completed projects will get e-tagged here and you can share this over LinkedIn or Facebook.
+
+[Arsheen - Program Office] 10:21:09
+Next is the fee payments tab. You will be able to view your fee payment history, the next due installment, and the link to make payment for the next installment.
+
+[Arsheen - Program Office] 10:21:20
+Below that is #Migrate learning. Using this hashtag, you can share your key milestones and events in your learning journey throughout the program over social media.
+
+[Arsheen - Program Office] 10:21:33
+Below that, you will be able to find industry articles
+
+[Arsheen - Program Office] 10:21:36
+You can find a lot of industry articles in the field of data science curated for you.
+
+[Arsheen - Program Office] 10:21:42
+Below that, you have the referral non section. This is the same feature that we discussed while you were looking into our dashboard.
+
+[Arsheen - Program Office] 10:21:50
+Next, you have the testimonial section. You can share your experience and key learning outcomes under this.
+
+[Arsheen - Program Office] 10:21:57
+Lastly, you have the settings option
+
+[Arsheen - Program Office] 10:22:00
+In the settings option, you can edit your name, email ID, phone number, and an important feature to note in the settings section is the time zone
+
+[Arsheen - Program Office] 10:22:10
+So, for example, to change my time zone, if I am in Central America
+
+[Arsheen - Program Office] 10:22:18
+I will just click on Central America and I will update
+
+[Arsheen - Program Office] 10:22:24
+So you will be able to set the time as per your current geographical location using this icon
+
+[Arsheen - Program Office] 10:22:30
+Please note that all of you must update your time zone correctly, because it will impact the time displayed for mentored learning sessions and assessment deadlines.
+
+[Arsheen - Program Office] 10:22:40
+So it is very important for you all to update the time zone.
+
+[Arsheen - Program Office] 10:22:45
+So yeah, this was mostly it about your dashboard. I hope this has brought a lot more clarity to all of you. You will be able to view the recording of this particular session under the completed tabs three to four hours after the session ends
+
+[Arsheen - Program Office] 10:23:01
+In case you have any further questions, please feel free to reach out to your program manager, and they will be happy to assist.
+
+[Arsheen - Program Office] 10:23:07
+That would be it from my end. Thank you so much. Over to you, Kingsley.
+
+[Kingsly - Program Office] 10:23:13
+Just one minute
+
+[Kingsly - Program Office] 10:23:20
+Great.
+
+[Kingsly - Program Office] 10:23:21
+Thank you, Ashim, for taking us through the Olympus dashboard. I'm confident that your insights have enhanced everyone's understanding of its functionality.
+
+[Kingsly - Program Office] 10:23:31
+Now, it's time for you to meet your program manager
+
+[Kingsly - Program Office] 10:23:34
+A very warm welcome to Tanya. Hello, Tanya.
+
+[Taniya- Program Office] 10:23:38
+Hi, everyone. Thank you, Kinsley. So my name is Tanya and I will be your program manager and I will be working closely with you throughout the program and will be your go-to person for any support, queries or guidance you may need throughout the way
+
+[Taniya- Program Office] 10:23:53
+We are really excited to have you all here. I look forward to supporting you through a smooth and successful learning journey. Welcome to the program, wishing you all the very best. Just a quick update before I hand it over to Kinsley. I'm currently facing a temporary technical issue on my WhatsApp
+
+[Taniya- Program Office] 10:24:09
+Which will be resolved soon. So, until then, if you need assistance, please raise a support request, and I'll help you out. Over to you, Kinsley. Thank you.
+
+[Kingsly - Program Office] 10:24:18
+Thank you, Daniel. Thank you for the very warm introduction.
+
+[Kingsly - Program Office] 10:24:22
+Now that all of us are well informed about the program, let us discuss about its secret of success.
+
+[Kingsly - Program Office] 10:24:28
+We have seen thousands of learners meeting the learning goals and aspirations. It is important to remember the following points
+
+[Kingsly - Program Office] 10:24:37
+This is an intensive program that will require 8 to 10 hours of weekly engagement.
+
+[Kingsly - Program Office] 10:24:43
+The learning will build gradually, with each week adding up to a rich, well-rounded experience.
+
+[Kingsly - Program Office] 10:24:50
+To ensure the content stays aligned with the latest industry trends
+
+[Kingsly - Program Office] 10:24:55
+We may occasionally make updates to the learning schedule to enhance your learning experience.
+
+[Kingsly - Program Office] 10:25:02
+Your feedback is important as we continuously work to improve your learning experience throughout the journey, we aim to build a strong body of work that you can showcase to a wider AI community.
+
+[Kingsly - Program Office] 10:25:16
+Now, we realized that there might be a few challenges along the way as well. However, these can be managed well by making the most of the video content, taking notes, and re-watching if required.
+
+[Kingsly - Program Office] 10:25:28
+Practice hands-on using the data sets and exercises that are provided
+
+[Kingsly - Program Office] 10:25:33
+Watching the weekly content and practicing before you attend your mentored learning sessions
+
+[Kingsly - Program Office] 10:25:39
+Then reviewing the case studies and the additional reading materials.
+
+[Kingsly - Program Office] 10:25:43
+Use the GL Coach features for quick support for quick support and guidance.
+
+[Kingsly - Program Office] 10:25:50
+You reach out to your program manager, Tanya, for any program-related queries. Lastly, please have a timely submission of your assessments.
+
+[Kingsly - Program Office] 10:26:03
+So the next steps for you are the following
+
+[Kingsly - Program Office] 10:26:06
+Log into Olympus and fill the learner information form, then complete your profile and update the time zone.
+
+[Kingsly - Program Office] 10:26:13
+Right after this, you can start going through the pre-work and then on to the Agentic AI Foundations module.
+
+[Kingsly - Program Office] 10:26:20
+The pre-work module itself is self-paced and has no graded assessments or deadlines.
+
+[Kingsly - Program Office] 10:26:26
+By completing the pre-work, you can establish a solid understanding of the fundamental concepts, tools, and methodologies.
+
+[Kingsly - Program Office] 10:26:34
+This groundwork will equip you with the necessary foundation to navigate through the program effectively.
+
+[Kingsly - Program Office] 10:26:40
+We are also conducting the Getting Started with Agentic AI session right after the Orientation session, wherein you will be understanding the key terminologies from the world of AI and Agentic AI.
+
+[Kingsly - Program Office] 10:26:53
+Please note, this is an optional session. You can get your doubts clarified through the chat option.
+
+[Kingsly - Program Office] 10:26:59
+Your first mandatory graded mentored learning session will begin on the weekend of 18th of July.
+
+[Kingsly - Program Office] 10:27:08
+Moving on, I would like to share that the GRADE learning team will reach out to you periodically for feedback. We do this because your inputs directly drive our continuous improvement. They are also reviewed in our meetings.
+
+[Kingsly - Program Office] 10:27:23
+Since we are an online learning platform, we rely heavily on your feedback to understand what is working well and what needs improvement.
+
+[Kingsly - Program Office] 10:27:31
+You will be asked for feedback after every session, midway through the program for any course corrections, and again at the end to assess your overall 12-week journey.
+
+[Kingsly - Program Office] 10:27:41
+And you share your feedback, please keep the following in mind. Take your time and provide detailed feedback. We genuinely act on it.
+
+[Kingsly - Program Office] 10:27:49
+Tell us how your learning experience can be improved. Please be specific and include more examples or instances. And lastly, please be realistic as we balance the needs of the entire class.
+
+[Kingsly - Program Office] 10:28:03
+We have now reached the end of the orientation, which is the first part. However, please note, this session will continue with our mentor, Amish after a quick 5 minute break.
+
+[Kingsly - Program Office] 10:28:14
+This will be the second part of today's session
+
+[Kingsly - Program Office] 10:28:17
+the optional… the optional session, getting started with Agentic AI. We would recommend you to stay on call and attend, especially if you have not attended any of the pre-work sessions in the past
+
+[Kingsly - Program Office] 10:28:30
+Our goal was to provide you with a clear understanding of the learning journey ahead
+
+[Kingsly - Program Office] 10:28:35
+And we hope that we were able to deliver on that.
+
+[Kingsly - Program Office] 10:28:38
+If there are any queries that got missed, do not worry. We have taken a note of it. Your concerns will be addressed by your program manager in the next two to three working days.
+
+[Kingsly - Program Office] 10:28:49
+Alternatively, you can also reach out to your program manager, Tanya, directly on WhatsApp, or please raise a support ticket on Olympus.
+
+[Kingsly - Program Office] 10:28:58
+Best of luck, everyone. We will begin with the Agentic AI session after a quick 5-minute break.
+
+[Kingsly - Program Office] 10:29:02
+Thank you. Thank you for joining in.
