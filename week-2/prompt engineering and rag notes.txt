@@ -1,0 +1,269 @@
+Overview: Prompt Engineering and Retrieval Augmented Generation
+QUICK RECAP 
+In the previous week, we explored the evolution of AI and Generative AI, distinguishing between discriminative and generative models and their real-world applications. We also learned how large language models (LLMs) predict and generate text, as well as the challenges they may face, such as hallucinations. On the practical side, we interacted with ChatGPT to understand how LLMs respond to different types of inputs and how model behavior can change based on the instructions provided.
+
+
+
+WEEK OVERVIEW
+This week, we will dive deeper into the practice of Prompt Engineering and understand how it serves as the foundation for effectively harnessing Generative AI in business environments. We will explore why prompt engineering is essential, how different prompting techniques work, and the strategies for crafting prompts that generate high-quality outputs. You will also learn how reusable prompt templates can streamline workflows across teams and use cases. 
+
+Additionally, we will introduce the concept of Retrieval-Augmented Generation (RAG), a powerful enhancement that addresses the limitations of prompting alone. We’ll examine why enterprise systems require external knowledge integration and how RAG components such as chunking, embeddings, and vector databases work together to improve factual accuracy and context relevance.
+
+The following topics will be covered in this module:
+
+The Need for Prompt Engineering
+Common Prompting Techniques (ZS, OS, FS, CoT)
+Best Practices for Crafting Effective Prompts
+Reusable Prompt Templates
+The Need for RAG
+Overview of RAG Components (Data Chunking, Embeddings, Vector Store, Retrieval, Augmentation, Generation)
+
+LEARNING OBJECTIVES
+By the end of this module, you will be able to: 
+
+Explain the need for prompt engineering and how it improves the effectiveness of Generative AI in business applications. 
+Compare and apply prompting techniques such as Zero-Shot, One-Shot, Few-Shot, and Chain-of-Thought to enhance accuracy and reliability. 
+Design and reuse prompt templates to standardize AI interactions and scale Generative AI across organizational workflows. 
+Recognize the limitations of prompting in isolation and justify the need for Retrieval-Augmented Generation (RAG) in enterprise environments.
+Describe the core components of a RAG system data chunking, embeddings, vector stores, retrieval, augmentation, and generation and explain how they help build robust, enterprise-ready AI solutions.
+
+Hands-on Prompt Engineering : Preview
+The following materials are highly recommended for download, as they will be used in the upcoming lecture videos. You’ll get hands-on experience with Prompt Engineering using Large Language Models (LLMs). These practical walkthroughs are designed to guide you step-by-step in interacting with LLMs, crafting effective prompts to enhance responses, and improving the overall quality of generated outputs through structured techniques.
+
+ 
+
+What’s Covered in the Video?
+Here’s a quick overview of what you’ll learn in the upcoming hands-on videos:
+
+Prompt Engineering Hands-on (Video 1.2 – 1.4)
+
+
+Set up a pre-trained LLM and understand its input/output structure.
+
+Control response style using parameters like temperature and max tokens.
+
+Write clear, structured prompts and request outputs in formats like JSON.
+
+Apply few-shot and Chain-of-Thought (CoT) prompting for better reasoning and accuracy.
+
+Compare different prompting styles to analyze their impact on performance.
+
+Important Note: Run It Yourself on Colab!
+You can execute the notebook using Google Colab to try out the code yourself.
+
+Please refer to the instructions on pages "Google Colab Guide (Pre-work)" for details on how to open it with Google Colab.
+We highly recommend downloading the notebook below and following along with the professor so that you can work simultaneously with the faculty while watching the video content.
+
+ 
+
+Hands-on Notebook - Prompt Engineering:
+Hands_on_Prompt_Engineering.ipynb
+Happy Learning!
+
+Understanding Semantic Similarity and Vector Embeddings for RAG
+In the previous video, we understood how a RAG system works. 
+
+Now, the next step is to figure out the best context to give the LLM, and for that we use different retrieval methods such as:
+
+Keyword Search 
+TF-IDF Search 
+Semantic Similarity Search
+ Among these, the most widely used and most effective in modern LLM systems is Semantic Similarity Search.
+
+
+What is Semantic Similarity Search?
+Semantic similarity search measures how close in meaning two documents (pieces of text) are, rather than just matching words. It works as follows:
+
+Both the query (user input) and the documents (source of information) are converted into numerical representation (in technical terms, embeddings or vectors) that capture their meaning. 
+While there are many ways to do this conversion, the most common way to convert text into numbers is using transformer-based models.
+Then we calculate a 'similarity score' between the numerical representation of the query and each document vector to identify which documents are most similar to the query.
+While there are many ways to compute the similarity score, the most common way is by using cosine similarity.
+Cosine similarity measures the angle between the vectors (numerical representations) of the query and the documents; the lesser the angle, the more similar the documents are to the query.
+The documents are then ranked in decreasing order of their similarity to the query.
+In simple words: "Semantic similarity search finds documents that “mean the same thing” as the query, even if the words differ."
+
+
+
+Vector Store
+After converting documents into embeddings, we need a place to store and efficiently retrieve them. 
+
+A vector store is a specialized database designed for this purpose. It allows: 
+
+Fast retrieval of the most similar embeddings 
+Filtering based on metadata 
+Adding or updating embeddings easily 
+Popular vector stores include FAISS, Chroma, Pinecone, Milvus, and Weaviate.
+
+Think of vector stores as optimized search engines for matching and retrieving parts of documents based on meaning, rather than exact words.
+
+
+
+Why Semantic Similarity Matters in RAG?
+In a RAG system, semantic similarity search helps retrieve the most relevant chunks from a large document collection. 
+
+How it benefits the LLMs?
+
+Finds documents most semantically similar to the query 
+Provides these as extra context to the model 
+Enables the LLM to generate accurate and meaningful responses aligned with the document(s)
+In  simple words : "Semantic similarity search acts like a smart filter, giving the LLM the most relevant information to produce accurate, relevant outputs."
+
+Important Note: Semantic Similarity and Vector Embeddings Deep Dive
+The upcoming video, “1.6 Semantic Similarity and Vector Embeddings”, is OPTIONAL and will not compromise the learning outcomes from the week.
+The video offers a deeper dive into how AI can be used to find meaning and similarity between texts using vectors. 
+In case you are interested in exploring semantic similarity in more depth and are already familiar with the architecture of transformers, you can feel free to go through the video after completing the rest of the mandatory material in the week.
+An overview of the key technical terms referenced in the video has been provided below.
+
+Transformer
+A Transformer is a type of model architecture that helps machines understand and generate text effectively. Unlike older models that read text word by word, Transformers can look at the entire sentence at once, understanding relationships between words regardless of their position. They use a mechanism called self-attention, which allows the model to focus on the most important words when processing or generating text. This makes them very powerful for understanding context in language.
+
+Encoder
+The Encoder is the part of the Transformer that reads and understands text. It breaks the text into smaller pieces called tokens and converts them into numerical vectors a mathematical representation that captures the meaning of the words and their relationships. 
+
+Multiple layers in the encoder help it build a deep understanding of the text, allowing the model to represent the content accurately for downstream tasks like text classification, sentiment analysis, and more.
+
+Decoder
+The Decoder is the part that generates text output. It takes the understanding from the encoder and uses it, along with the words it has already produced, to predict the next word in the sequence. The decoder also uses attention to focus on the most relevant parts of the input, making the generated text coherent and meaningful. In some models, the decoder alone handles both understanding and generation.
+
+BOS (Beginning of Sequence) and EOS (End of Sequence)
+These are special tokens that guide the model during text generation: 
+
+BOS marks the start of a sequence. 
+EOS marks the end. 
+They help the model know where a sentence or input begins and ends, which is crucial for generating complete and accurate text.
+BERT
+BERT is a Transformer-based model that only uses the encoder. It reads text in both directions left-to-right and right-to-left to capture the full context of each word. This bidirectional understanding makes BERT very good at tasks like extracting meaning or classifying text, rather than generating new text.
+
+Hands-on Retrieval Augmented Generation: Preview
+The following materials are highly recommended for download, as they will be used in the upcoming lecture videos. You’ll get hands-on experience with Retrieval-Augmented Generation (RAG) using Large Language Models (LLMs).
+
+ 
+
+What’s Covered in the Video?
+Here’s a quick overview of what you’ll learn in the upcoming hands-on videos:
+
+RAG Hands-on (Video 1.9 – 1.11)
+
+Set up the environment and install essential libraries (e.g., langchain, faiss, openai).
+
+Understand the role of each library in the RAG pipeline.
+
+Load and preprocess documents, chunking them with RecursiveCharacterTextSplitter.
+
+Generate embeddings using HuggingFaceEmbeddings and store/index them with FAISS.
+
+Retrieve relevant document chunks with RetrievalQA and generate answers using an OpenAI LLM.
+
+
+
+Important Note: Run It Yourself on Colab!
+You can execute the notebook using Google Colab to try out the code yourself.
+
+Please refer to the instructions on pages "Google Colab Guide (Pre-work)" for details on how to open it with Google Colab.
+We highly recommend downloading the notebook below and following along with the professor so that you can work simultaneously with the faculty while watching the video content.
+
+ 
+
+Hands-on Notebook - RAG:
+Hands_on_RAG.ipynb
+Dataset
+AAPL-MDA.txt
+
+Happy Learning!
+
+FAQ: Prompt Engineering and Retrieval Augmented Generation
+ 
+
+1. What is hallucination in the context of large language models (LLMs)?
+Hallucination in the context of large language models refers to the generation of incorrect or fabricated information that may not be grounded in reality. It occurs when the model generates outputs that sound plausible but are untrue or not supported by the input data. This can happen due to the model's ability to generate creative and contextually relevant responses, even when the information provided is inaccurate or misleading.
+
+Examples of hallucination in language models could include generating false information, making up events or details, or providing answers that sound plausible but are factually incorrect. Preventing hallucination is an ongoing challenge, and it requires a combination of careful training, validation, and continuous improvement processes.
+
+  
+
+2. Why is it important to do prompt engineering when working with LLMs?
+Prompt engineering is important for guiding LLMs to produce desired outputs by tailoring input instructions, ensuring context clarity, and enhancing the models' performance in various applications. It helps in obtaining more accurate and relevant results from LLMs based on specific user requirements.
+
+Below are a few examples that illustrate what an effective prompt would look like:
+
+Be Clear and Specific
+Base Prompt: "Tell me about dogs."
+Improved Prompt: "Describe the characteristics and behavior of golden retrievers."
+Show Examples
+Base Prompt: "Summarize a news article."
+Improved Prompt: "Summarize the following news article about climate change: [insert the article]."
+Try Rephrasing
+Base Prompt: "Explain the concept of time travel."
+Improved Prompt: "Provide a simple explanation of time travel. What is it, and how might it work?"
+Specify the length of the output
+Base Prompt: "Generate a creative poem."
+Improved Prompt: "Write a poem (50-100 words) about the beauty of nature, ensuring clarity and avoiding overly complex language."
+Combine Prompts
+Base Prompt: "Explain the impact of deforestation."
+Improved Prompt: "Start by defining deforestation and then provide examples of its environmental impact. Be sure to include both short-term and long-term consequences."
+Provide Context
+Base Prompt: "Write a dialogue."
+Improved Prompt: "Create a dialogue between two characters, a student and a teacher, discussing the importance of environmental conservation in the context of their biology class."
+Handle Errors
+Base Prompt: "Write a travel itinerary."
+Improved Prompt: "Generate a travel itinerary, and if the model encounters any unrealistic or impractical suggestions, please provide alternatives."
+Specify the role that the model has to take on
+Base Prompt: "Answer a user's question."
+Improved Prompt: "Imagine you're an AI assistant responding to a user who wants to know the steps to set up a home Wi-Fi network. Provide clear and step-by-step instructions."
+Stay Ethical and Aware
+Base Prompt: "Describe a successful professional."
+Improved Prompt: "Describe a successful professional without assuming gender, ethnicity, or background. Focus on skills, achievements, and personal qualities."
+ 
+
+3. Why does my Colab session crash or restart when I run this code?
+lcpp_llm = Llama(
+ model_path=model_path,
+ n_threads=2, # CPU cores
+ n_batch=512, # Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.
+ n_gpu_layers=43, # Change this value based on your model and your GPU VRAM pool.
+ n_ctx=4096, # Context window
+)
+This usually happens because the settings for n_batch or n_gpu_layers are too high for the limited RAM or GPU memory (VRAM) available in Google Colab.
+
+What do n_batch and n_gpu_layers actually mean?
+n_batch: The number of tokens processed at once (batch size). Larger values speed up inference but use more RAM or GPU memory.
+n_gpu_layers: The number of transformer layers to run on the GPU instead of CPU. Higher values make processing faster but can exhaust VRAM quickly.
+How can I fix the crashing issue?
+Try reducing the values for both parameters:
+Recommended safe values for Google Colab:
+lcpp_llm = Llama(
+    model_path=model_path,
+    n_threads=2,
+    n_batch=64,         # Try 64 or even 32
+    n_gpu_layers=20,    # Try 20 or lower (or even 0 to use CPU only)
+    n_ctx=2048          # You can also reduce context if needed
+)
+I still see “out of memory” errors. What should I do?
+Reduce n_batch even further, e.g., to 32 or 16.
+Lower n_gpu_layers to 0. This means all computation runs on CPU (slower, but avoids VRAM issues).
+Close unused tabs and restart the Colab runtime to free up memory.
+
+Will reducing these parameters affect model performance?
+Reducing these does not affect the output quality, but may:
+- Make inference slower (especially on CPU)
+- Slightly increase latency for longer texts
+It's a trade-off between speed and memory stability.
+ 
+
+StartFragment
+4. What is Retrieval-Augmented Generation (RAG)?
+Retrieval-Augmented Generation combines the best of both worlds of the retrieval system and a generative model. The RAG approach involves first retrieving relevant documents or snippets of data from a large corpus to subsequently use such information in informing and augmenting responses generated by a neural network. This way, the method is very helpful in systems that demand a rich, contextually accurate generation of texts, such as chatbots, content creation, and question-answering systems.
+
+ 
+
+5. How does RAG differ from traditional generative models?
+As compared to traditional generative models, which simply rely on the patterns learned during their pre-training, RAG models augment the outputs with data from various data sources such as video, images, texts, articles,... etc., and generate a response using an LLM for retrieving the data for a user query. This retrieval step allows RAG models to produce responses that are not only contextually relevant but also updated and informed by the most recent information available. This hybrid approach leads to better accuracy and relevance of the generated content compared to a purely generative model
+
+ 
+
+6. What challenges are associated with implementing RAG models?
+RAG models are more difficult to implement than vanilla LLMs because they demand a comprehensive and well-maintained knowledge base from which to retrieve information. Moreover, it requires good computational power and optimization for the retrieval and generation components to work seamlessly in real-time applications. For the retrieved information, its accuracy and relevance are key in the process, considering that errors in the retrieval can directly result in errors in the generated content.
+
+EndFragment
+
+
