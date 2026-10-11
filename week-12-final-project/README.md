@@ -6,38 +6,59 @@ This folder contains the Week 12 full-code final project for the UT Austin / Gre
 
 ## Project objective
 
-Build a proof-of-concept multi-agent system that processes last-mile delivery exceptions end to end. The solution classifies delivery exceptions, selects an appropriate resolution action using operational policy and customer/package context, determines when supervisor escalation is required, generates customer communication, and evaluates the resulting workflow.
+Build a proof-of-concept multi-agent system that processes last-mile delivery exceptions end to end. The solution classifies exceptions, selects policy-grounded resolution actions, determines supervisor escalation, generates customer communication, validates agent output, and evaluates the complete workflow.
 
 ## Submission path
 
-This project uses the **full-code** submission path. The final deliverable will be an executed Jupyter notebook exported to **HTML** after all cells run successfully from top to bottom.
+This project uses the **full-code** submission path. The final deliverable will be an executed Jupyter notebook exported to **HTML** only after every cell runs successfully from top to bottom.
 
 ## Folder structure
 
 ```text
 week-12-final-project/
 ├── README.md
-├── Project 3 - Full-code Notebook.ipynb
+├── Week_12_Final_Project_Full_Code.ipynb
 ├── config.example.json
 └── data/
-    ├── customers.db
+    ├── README.md
+    ├── customers.csv
+    ├── lockers.csv
     ├── delivery_logs.csv
-    ├── exception_resolution_playbook.pdf
+    ├── exception_resolution_playbook.txt
     └── ground_truth.csv
 ```
 
-## Credentials
+`customers.csv` and `lockers.csv` are table exports from the supplied SQLite database. `exception_resolution_playbook.txt` is a page-marked text extraction of the supplied playbook PDF so retrieval citations retain source page numbers.
 
-Do not commit API keys. Copy `config.example.json` to `config.json` locally and populate the required values before running the notebook. `config.json` is ignored by Git.
+## Google Colab credentials
 
-## Workflow
+The OpenAI-compatible API key and Great Learning endpoint are kept **only in Google Colab Secrets**. Nothing secret is committed to GitHub.
 
-1. Develop changes on a feature branch.
-2. Run and validate the notebook sequentially.
-3. Commit only project code, data, and non-secret configuration examples.
-4. Open a pull request into `main` for review.
-5. After the final run, export the executed notebook to HTML for submission.
+Create these secrets in Colab and enable notebook access:
+
+- `OPENAI_API_KEY`
+- `OPENAI_API_BASE`
+
+The notebook also accepts `OPENAI_BASE_URL` as an alternate endpoint secret name.
+
+## Running in Colab
+
+Clone the repository and move into the project directory before running the notebook:
+
+```python
+!git clone https://github.com/mschemerii/UT-Austin.git
+%cd /content/UT-Austin/week-12-final-project
+```
+
+Then open/run `Week_12_Final_Project_Full_Code.ipynb` and execute all cells sequentially. If execution exposes a defect, make the correction on the execution-results branch rather than editing `main` directly.
+
+## Git workflow
+
+1. Scaffold changes are merged through PR #1.
+2. Project data and the reviewed notebook are developed and reviewed through PR #2.
+3. Execution fixes and real model results use a separate follow-up branch/PR.
+4. The final executed notebook is exported to HTML only after the run is clean and the metrics have been reviewed.
 
 ## Current status
 
-The starter notebook has been completed with the multi-agent workflow, retrieval setup, prompts, evaluation logic, test-case execution scaffolding, aggregate metrics, and business conclusions/recommendations. The next step is to run the notebook against the Great Learning OpenAI-compatible endpoint and validate the real outputs before final submission.
+The data/notebook branch contains the project implementation, evaluation logic, security controls, critic retries, document citations, and all ten test-case execution logic. API credentials and the endpoint remain in Colab only. Quantitative conclusions will be based on the real executed results, not fabricated values.
