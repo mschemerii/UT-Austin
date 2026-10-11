@@ -1,76 +1,36 @@
-# Week 12 Final Project
+# Project 3 - AI-Powered Last-Mile Delivery Exception Handling Automation
 
-## AI-Powered Last-Mile Delivery Exception Handling Automation
+Full-code submission for the UT Austin / Great Learning Agentic AI program (Week 12).
 
-This folder contains the Week 12 full-code final project for the UT Austin / Great Learning Agentic AI coursework.
-
-## Project objective
-
-Build a proof-of-concept multi-agent system that processes last-mile delivery exceptions end to end. The solution classifies exceptions, selects policy-grounded resolution actions, determines supervisor escalation, generates customer communication, validates agent output, and evaluates the complete workflow.
-
-## Submission path
-
-This project uses the **full-code** submission path. The final deliverable will be an executed Jupyter notebook exported to **HTML** only after every cell runs successfully from top to bottom.
-
-## Canonical execution branch
-
-All active execution work stays on:
-
-`week-12-execution-results`
-
-Do not use the older project-data branch for Colab runs.
-
-## Canonical notebook
-
-Use only:
-
-`week-12-final-project/Week_12_Final_Project_Colab_Ready.ipynb`
-
-The older duplicate notebook has been removed from this branch to prevent opening the wrong file.
-
-## Folder structure
+## What is here
 
 ```text
 week-12-final-project/
 ├── README.md
-├── EXECUTION.md
-├── Week_12_Final_Project_Colab_Ready.ipynb
-├── config.example.json
+├── Project_3_Last_Mile_Delivery_Exception_Handling.ipynb   # the deliverable (built from the supplied starter notebook)
+├── config.example.json                                     # credential template (copy to config.json, which is git-ignored)
 └── data/
-    ├── README.md
-    ├── customers.csv
-    ├── lockers.csv
-    ├── delivery_logs.csv
-    ├── exception_resolution_playbook.txt
-    └── ground_truth.csv
+    ├── customers.db                                        # SQLite: customers (12) + lockers (6)
+    ├── delivery_logs.csv                                   # 13 raw shipment events, 10 unique shipments
+    ├── ground_truth.csv                                    # reference labels for evaluation
+    └── exception_resolution_playbook.pdf                   # RAG source (10 pages)
 ```
 
-`customers.csv` and `lockers.csv` are table exports from the supplied SQLite database. `exception_resolution_playbook.txt` is a page-marked text extraction of the supplied playbook PDF so retrieval citations retain source page numbers.
+## Architecture (LangGraph)
 
-## Google Colab credentials
+`preprocessor -> orchestrator <-> {resolution_agent, critic_resolution, communication_agent, critic_communication} -> finalize`
 
-The OpenAI-compatible API key and Great Learning endpoint are kept **only in Google Colab Secrets**. Nothing secret is committed to GitHub.
+- **Deterministic:** dedup, noise filtering, prompt-injection guardrail, escalation rule engine, routing, revision-loop cap.
+- **LLM:** Resolution Agent and Communication Agent (`gpt-4o-mini`); Critics and the coherence judge (`gpt-4o`).
+- **Tools:** delivery-log reader, customer profile (PII redacted by default), locker eligibility, playbook RAG (Chroma + MiniLM, page citations), escalation rules.
+- **Security:** injection scan on inputs and retrieved chunks, per-agent state views, PII only for the Communication Agent, read-only parameterized SQLite, Pydantic-validated outputs, secrets never printed.
+- **Metrics:** Task Completion, Escalation Accuracy, Tool Call Accuracy, Reasoning Trajectory Coherence (LLM-as-a-Judge), Latency.
 
-Create these secrets in Colab and enable notebook access:
+## Running it
 
-- `OPENAI_API_KEY`
-- `OPENAI_API_BASE`
+1. Open the notebook in Google Colab (or Jupyter/VS Code) and run top to bottom.
+2. Provide credentials by **one** of: `config.json` next to the notebook, Colab Secrets (`OPENAI_API_KEY`, `OPENAI_API_BASE`, optional `LANGCHAIN_API_KEY`, `LANGCHAIN_PROJECT`), or environment variables. Nothing secret is stored in the notebook or in Git.
+3. If the data files are not next to the notebook, the first data cell fetches them from this repository (Colab only).
+4. LangSmith tracing turns on automatically when a LangSmith key is present; otherwise it is disabled cleanly.
 
-The notebook also accepts `OPENAI_BASE_URL` as an alternate endpoint secret name.
-
-## Running in Colab
-
-Open the canonical notebook from the `week-12-execution-results` branch. Its first cell clones or refreshes that same branch into `/content/UT-Austin`, moves into `week-12-final-project`, and verifies the required project data files.
-
-The notebook then validates Colab secrets, explicitly configures Bearer authentication for the Great Learning OpenAI-compatible endpoint, and runs an API connection test before the multi-agent workflow begins.
-
-## Git workflow
-
-1. Scaffold changes were merged through PR #1.
-2. Project data and the reviewed notebook were merged through PR #2.
-3. All execution fixes and real model results stay on `week-12-execution-results` in PR #3.
-4. The final executed notebook is exported to HTML only after the run is clean and the metrics have been reviewed.
-
-## Current status
-
-The execution branch contains one canonical Colab notebook, the project data, the evaluation logic, security controls, critic retries, document citations, and all ten test-case execution logic. API credentials and the endpoint remain in Colab only. Quantitative conclusions will be based on the real executed results, not fabricated values.
+The notebook is committed **without outputs**. Every results section (per-case traces and citations, observations, aggregate metrics, results-driven conclusions) is generated from the live run, so run it once, then export the executed notebook (HTML) for submission.
