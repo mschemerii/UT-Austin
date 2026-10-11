@@ -1,0 +1,38 @@
+name: Patch Week 12 Colab notebook
+
+on:
+  push:
+    branches:
+      - week-12-execution-results
+    paths:
+      - 'week-12-final-project/scripts/patch_colab_notebook.py'
+      - '.github/workflows/week12-notebook-patch.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  patch-notebook:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out execution branch
+        uses: actions/checkout@v4
+        with:
+          ref: week-12-execution-results
+          fetch-depth: 0
+
+      - name: Generate hardened Colab notebook
+        run: python week-12-final-project/scripts/patch_colab_notebook.py
+
+      - name: Commit generated notebook
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add week-12-final-project/Week_12_Final_Project_Colab_Ready.ipynb
+          if git diff --cached --quiet; then
+            echo 'Notebook already up to date.'
+          else
+            git commit -m 'Regenerate hardened Week 12 Colab notebook [skip ci]'
+            git push origin HEAD:week-12-execution-results
+          fi
