@@ -1,7 +1,0 @@
-locker_id,address,zip_code,capacity_status,operating_hours,max_package_size
-LOC-001,"150 Main Street, Greenfield",10001,AVAILABLE,6AM-10PM,LARGE
-LOC-002,"42 Oak Avenue, Riverside",10002,LIMITED,7AM-9PM,MEDIUM
-LOC-003,"88 Elm Boulevard, Westdale",10003,FULL,24 hours,LARGE
-LOC-004,"215 Pine Road, Northgate",10004,AVAILABLE,8AM-8PM,SMALL
-LOC-005,"33 Cedar Lane, Eastport",10005,LIMITED,6AM-11PM,MEDIUM
-LOC-006,"170 Birch Court, Southfield",10006,AVAILABLE,24 hours,LARGE
