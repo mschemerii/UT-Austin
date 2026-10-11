@@ -12,12 +12,29 @@ Build a proof-of-concept multi-agent system that processes last-mile delivery ex
 
 This project uses the **full-code** submission path. The final deliverable will be an executed Jupyter notebook exported to **HTML** only after every cell runs successfully from top to bottom.
 
+## Canonical execution branch
+
+All active execution work stays on:
+
+`week-12-execution-results`
+
+Do not use the older project-data branch for Colab runs.
+
+## Canonical notebook
+
+Use only:
+
+`week-12-final-project/Week_12_Final_Project_Colab_Ready.ipynb`
+
+The older duplicate notebook has been removed from this branch to prevent opening the wrong file.
+
 ## Folder structure
 
 ```text
 week-12-final-project/
 ├── README.md
-├── Week_12_Final_Project_Full_Code.ipynb
+├── EXECUTION.md
+├── Week_12_Final_Project_Colab_Ready.ipynb
 ├── config.example.json
 └── data/
     ├── README.md
@@ -43,22 +60,17 @@ The notebook also accepts `OPENAI_BASE_URL` as an alternate endpoint secret name
 
 ## Running in Colab
 
-Clone the repository and move into the project directory before running the notebook:
+Open the canonical notebook from the `week-12-execution-results` branch. Its first cell clones or refreshes that same branch into `/content/UT-Austin`, moves into `week-12-final-project`, and verifies the required project data files.
 
-```python
-!git clone https://github.com/mschemerii/UT-Austin.git
-%cd /content/UT-Austin/week-12-final-project
-```
-
-Then open/run `Week_12_Final_Project_Full_Code.ipynb` and execute all cells sequentially. If execution exposes a defect, make the correction on the execution-results branch rather than editing `main` directly.
+The notebook then validates Colab secrets, explicitly configures Bearer authentication for the Great Learning OpenAI-compatible endpoint, and runs an API connection test before the multi-agent workflow begins.
 
 ## Git workflow
 
-1. Scaffold changes are merged through PR #1.
-2. Project data and the reviewed notebook are developed and reviewed through PR #2.
-3. Execution fixes and real model results use a separate follow-up branch/PR.
+1. Scaffold changes were merged through PR #1.
+2. Project data and the reviewed notebook were merged through PR #2.
+3. All execution fixes and real model results stay on `week-12-execution-results` in PR #3.
 4. The final executed notebook is exported to HTML only after the run is clean and the metrics have been reviewed.
 
 ## Current status
 
-The data/notebook branch contains the project implementation, evaluation logic, security controls, critic retries, document citations, and all ten test-case execution logic. API credentials and the endpoint remain in Colab only. Quantitative conclusions will be based on the real executed results, not fabricated values.
+The execution branch contains one canonical Colab notebook, the project data, the evaluation logic, security controls, critic retries, document citations, and all ten test-case execution logic. API credentials and the endpoint remain in Colab only. Quantitative conclusions will be based on the real executed results, not fabricated values.
