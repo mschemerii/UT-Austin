@@ -3,3 +3,5 @@
 .ipynb_checkpoints/
 *.mp4
 .vscode/
+config.json
+.env
